@@ -14,12 +14,10 @@ A simple Library Management System that allows users to manage books, including 
 
 ### For CLI Version
 
-- **Python**: Ensure Python is installed on your system (Python 3.x recommended).
-- **Required Libraries**: Install the necessary Python libraries using pip:
-
-  ```bash
-  pip install json
-  ```
+- **C++**: Ensure C++ is installed on your system.
+```bash
+sudo apt install gcc
+```
 
 ### For GUI Version
 
@@ -52,7 +50,8 @@ A simple Library Management System that allows users to manage books, including 
 2. Run the application:
 
    ```bash
-   python main.py
+   g++ main.cpp -o app
+   ./app
    ```
 
 3. Follow the on-screen prompts to manage your library.
@@ -69,13 +68,13 @@ A simple Library Management System that allows users to manage books, including 
 2. Compile the GUI application:
 
    ```bash
-   g++ main.cpp -o library_gui -lfltk
+   g++ main.cpp -o app -lfltk
    ```
 
 3. Run the GUI application:
 
    ```bash
-   ./library_gui
+   ./app
    ```
 
 4. Use the GUI to manage your library with a visual interface.
@@ -84,11 +83,7 @@ A simple Library Management System that allows users to manage books, including 
 
 If you'd like to contribute to the project, please fork the repository and submit a pull request with your changes. Contributions are welcome!
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
 - [FLTK](https://www.fltk.org/) - A cross-platform C++ GUI toolkit.
-- [Python](https://www.python.org/) - Programming language used for the CLI version.
