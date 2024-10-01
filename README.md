@@ -79,6 +79,42 @@ sudo apt install gcc
 
 4. Use the GUI to manage your library with a visual interface.
 
+
+### GUI Integrated CLI Version
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
+
+2. Compile the GUI application:
+
+   ```bash
+   g++ gui_main.cpp -o gui_app -lfltk
+   ```
+
+3. Run the GUI application:
+
+   ```bash
+   ./gui_app
+   ```
+   
+4. Compile the GUI application:
+
+   ```bash
+   g++ cli_main.cpp -o cli_app
+   ```
+
+5. Run the GUI application:
+
+   ```bash
+   ./cli_app
+   ```
+
+6. Use the GUI to manage your library with a visual interface and modify or delete or search any book using the CLI.
+
 ## Contributing
 
 If you'd like to contribute to the project, please fork the repository and submit a pull request with your changes. Contributions are welcome!
